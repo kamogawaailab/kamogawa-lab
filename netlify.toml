@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# 末尾スラッシュを正とする（URLの揺れは実体を分裂させる）
+[[redirects]]
+  from = "/reports/kyoto-experience-2026"
+  to = "/reports/kyoto-experience-2026/"
+  status = 301

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kamogawa-lab.jp/</loc>
+    <xhtml:link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/"/>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/reports/kyoto-experience-2026/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/en/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/zh-tw/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+</urlset>

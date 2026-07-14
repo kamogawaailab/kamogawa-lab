@@ -1,0 +1,52 @@
+# 鴨川AI検索ラボ
+#
+# AIクローラを明示的に許可する。
+# 「AIに見つけてもらえない」原因の一つが、
+# 気づかないうちにここでブロックしていること。
+# 自社サイトが該当していないか、一度確認することを勧める。
+
+User-agent: *
+Allow: /
+
+# --- OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# --- Google (AI Overviews / Gemini grounding) ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Others ---
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://kamogawa-lab.jp/sitemap.xml

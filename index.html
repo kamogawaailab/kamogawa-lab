@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>鴨川AI検索ラボ｜生成AIは、京都の事業者をどう認識しているか</title>
+<meta name="description" content="生成AI（ChatGPT・Gemini等）が京都の事業者をどのように認識し、紹介しているか。日本語・英語・中国語で実測し、記録を公開している個人研究プロジェクトです。">
+
+<link rel="canonical" href="https://kamogawa-lab.jp/">
+<link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
+<link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/">
+<link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="鴨川AI検索ラボ">
+<meta property="og:description" content="生成AIが、京都の事業者をどう認識しているか。日・英・中で調査し、記録を公開しています。">
+<meta property="og:url" content="https://kamogawa-lab.jp/">
+<meta property="og:site_name" content="鴨川AI検索ラボ">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+
+<link rel="stylesheet" href="/assets/style.css">
+
+<!--
+  ============================================================
+  構造化データ
+
+  当ラボの主張は「AIは、自分を主語として語られた、
+  引用可能な事実しか信用しない」である。
+  したがってこのサイト自身が、その実践例でなければならない。
+
+  ・JSON-LD は静的HTMLに直接記述（JSで注入しない）
+  ・Person / Organization を明示し、sameAs で外部と接続
+  ・提供内容・所在地・言語を、曖昧さなく事実として記述
+  ============================================================
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://kamogawa-lab.jp/#organization",
+      "name": "鴨川AI検索ラボ",
+      "alternateName": ["Kamogawa AI Search Lab", "鴨川AI搜尋研究室"],
+      "url": "https://kamogawa-lab.jp/",
+      "description": "生成AIが事業者をどのように認識・紹介しているかを、日本語・英語・中国語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
+      "email": "kamogawa.ai.lab@gmail.com",
+      "foundingDate": "2026-07",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "京都府"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "京都市"
+      },
+      "knowsLanguage": ["ja", "en", "zh-Hant", "zh-Hans"],
+      "knowsAbout": [
+        "生成AI検索における事業者の可視性",
+        "AI検索最適化 (GEO / LLMO)",
+        "エンティティ設計",
+        "構造化データ",
+        "多言語での情報設計",
+        "京都の観光事業者"
+      ],
+      "sameAs": [
+        "https://note.com/kamogawaailab",
+        "https://github.com/kamogawaailab"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kamogawa-lab.jp/#website",
+      "url": "https://kamogawa-lab.jp/",
+      "name": "鴨川AI検索ラボ",
+      "inLanguage": "ja",
+      "publisher": { "@id": "https://kamogawa-lab.jp/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">
+      鴨川AI検索ラボ
+      <span>Kamogawa AI Search Lab</span>
+    </a>
+    <nav>
+      <a href="/reports/">調査</a>
+      <a href="#about">このラボについて</a>
+      <a href="#contact">連絡</a>
+      <span class="langs">
+        <a href="/"        hreflang="ja"      aria-current="true">日本語</a>
+        <a href="/en/"     hreflang="en">EN</a>
+        <a href="/zh-tw/"  hreflang="zh-Hant">繁中</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <h1>生成AIは、あなたの店を<br>正しく紹介しているか。</h1>
+
+  <p class="lede">
+    観光客が「京都で茶道体験がしたい」と思ったとき、
+    その入り口はGoogleからAIへと移りつつあります。
+    返ってきた3〜5軒の中に、誰が入っているのか。
+    それを、実際に測っています。
+  </p>
+
+  <div class="callout">
+    <p><strong>調査でわかったこと（2026年7月）</strong></p>
+    <p>
+      京都の体験施設10軒を、日・英・繁体字・簡体字で調べました。
+      口コミ500件を超える人気店が「存在しない」と言われ、
+      別の店として紹介されました。
+      一方、料金まで正確にAIに語られていたのは、
+      <strong>個人経営の小さな茶室</strong>でした。
+    </p>
+    <p>
+      違いは、規模でも口コミ数でもありませんでした。
+    </p>
+    <p style="margin-top:16px">
+      → <a href="/reports/kyoto-experience-2026/"><strong>調査レポートを読む</strong></a>
+    </p>
+  </div>
+
+  <h2 id="about">このラボについて</h2>
+
+  <p>
+    鴨川AI検索ラボは、<strong>生成AIが事業者をどのように認識し、紹介しているか</strong>を
+    実測し、記録を公開している個人の研究プロジェクトです。
+  </p>
+
+  <p>
+    京都在住のITコンサルタントが、個人で運営しています。
+    <strong>特定の団体・大学等とは関係ありません。</strong>
+  </p>
+
+  <h3>なぜやっているのか</h3>
+
+  <p>
+    この分野には、まだ確立された正解がありません。
+    「AI検索で1位を保証します」と語るサービスもありますが、
+    生成AIの回答は確率的に変動するため、そのような保証は原理的に不可能です。
+  </p>
+
+  <p>
+    足りないのは技術ではなく、<strong>実測されたデータ</strong>だと考えています。
+    だから測っています。そして、<strong>外れた仮説も含めて公開します。</strong>
+  </p>
+
+  <h3>調べていること</h3>
+
+  <ul>
+    <li>生成AIは、その事業者を認識しているか。認識しているとして、正確か</li>
+    <li>AIは何を根拠に語っているか（引用元はどこか）</li>
+    <li>言語によって、推薦される事業者は変わるのか</li>
+    <li>同じ質問を繰り返したとき、回答はどれだけ揺れるのか</li>
+  </ul>
+
+  <h3>言えること、言えないこと</h3>
+
+  <p>
+    <strong>「AI対策をすれば予約が増える」とは言いません。</strong>
+    まだ誰も、その因果を証明していないからです。
+  </p>
+
+  <p>
+    <strong>ただし、変化したかどうかは測定できます。</strong>
+    言及率、AI経由の流入、実際の予約数。
+    この3つを施策の前後で追跡すれば、動いたかどうかは分かります。
+  </p>
+
+  <p>
+    保証はできない。しかし、測定はできる。
+    そこを引き受けたいと考えています。
+  </p>
+
+  <h2 id="contact">連絡</h2>
+
+  <p>
+    調査手法の詳細、同様の調査へのご関心、ご指摘・ご批判など。
+  </p>
+
+  <p>
+    <strong>kamogawa.ai.lab@gmail.com</strong>
+  </p>
+
+  <p style="font-size:15px; color:#666">
+    ※ 現在は会社に勤務しており、個人での受託は行っておりません。
+    調査結果の共有や、調べ方のご説明は無償で対応しています。
+  </p>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>鴨川AI検索ラボ</strong> — Kamogawa AI Search Lab</p>
+    <p>生成AIが、京都の事業者をどう認識しているか。日・英・中で調査し、記録を公開しています。</p>
+    <p style="margin-top:16px">京都市 ｜ kamogawa.ai.lab@gmail.com</p>
+    <p>個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</p>
+  </div>
+</footer>
+
+</body>
+</html>
