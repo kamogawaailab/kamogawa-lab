@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>鴨川AI検索ラボ｜生成AIは、事業者のことを顧客の言語でどう伝えているか</title>
-<meta name="description" content="生成AI（ChatGPT・Gemini等）が、事業者のことを顧客の言語でどのように伝えているか。日本語・英語・中国語で実測し、記録を公開している個人研究プロジェクトです。GEO・LLMO・AIOと呼ばれる領域を、データで検証します。">
+<meta name="description" content="生成AI（ChatGPT・Claude・Gemini等）が、事業者のことを顧客の言語でどのように伝えているか。日本語・英語・中国語をはじめとする多言語で実測し、記録を公開している個人研究プロジェクトです。GEO・LLMO・AIOと呼ばれる領域を、データで検証します。">
 
 <link rel="canonical" href="https://kamogawa-lab.jp/">
 <link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
 <link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/">
 <link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/">
 <link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
 
 <meta property="og:type" content="website">
@@ -44,9 +45,9 @@
       "@type": "Organization",
       "@id": "https://kamogawa-lab.jp/#organization",
       "name": "鴨川AI検索ラボ",
-      "alternateName": ["Kamogawa AI Search Lab", "鴨川AI搜尋研究室"],
+      "alternateName": ["Kamogawa AI Search Lab", "鴨川AI搜尋研究室", "鸭川AI搜索研究室"],
       "url": "https://kamogawa-lab.jp/",
-      "description": "生成AIが事業者のことを顧客の言語でどのように伝えているかを、日本語・英語・中国語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
+      "description": "生成AIが事業者のことを顧客の言語でどのように伝えているかを、日本語・英語・中国語をはじめとする多言語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
       "email": "kamogawa.ai.lab@gmail.com",
       "foundingDate": "2026-07",
       "location": {
@@ -95,6 +96,7 @@
         <a href="/"        hreflang="ja"      aria-current="true">日本語</a>
         <a href="/en/"     hreflang="en">EN</a>
         <a href="/zh-tw/"  hreflang="zh-Hant">繁中</a>
+        <a href="/zh-cn/"  hreflang="zh-Hans">简中</a>
       </span>
     </nav>
   </div>
@@ -106,22 +108,21 @@
 
   <p class="lede">
     旅行者や消費者が何かを探すとき、
-    その入り口は少しずつ、GoogleからAIへ移りつつあります。
+    その入り口はGoogleからAIへ移りつつあります。
     AIが答えに挙げるのは、たいてい3〜5件。
-    そこに誰が入り、誰が入らないのか。
-    日本語・英語・中国語で、実際に聞いて記録しています。
+    選ばれる事業者と、選ばれない事業者は、何が違うのか。
+    日本語・英語・中国語をはじめとする多言語で、実測した結果を分析しています。
   </p>
 
   <div class="callout">
     <p><strong>2026年7月の調査から</strong></p>
     <p>
       京都の体験施設10軒について、日・英・繁体字・簡体字でAIに尋ねてみました。
-      口コミ500件を超える人気店が「存在しない」と答えられる一方で、
+      Googleマップの口コミが500件を超える人気店が「存在しない」と答えられる一方で、
       料金まで正確に紹介されていたのは、個人経営の小さな茶室でした。
     </p>
     <p>
-      調べる前は、規模や知名度で決まるのだろうと思っていました。
-      そうではありませんでした。
+      その原因は何でしょうか。
     </p>
     <p style="margin-top:16px">
       → <a href="/reports/kyoto-experience-2026/"><strong>調査レポートを読む</strong></a>
@@ -138,7 +139,11 @@
   <p>
     この分野はGEO（Generative Engine Optimization）やLLMO、AIOなどと
     呼ばれていますが、呼び名が定まらないほど新しい領域です。
-    だからこそ、断言する前に、まず測って記録を残すことから始めています。
+    それらの用語を追いかけることも、実体の伴わない言葉を増やすことも、
+    このラボの目的ではありません。
+    事業者が、AIの時代にも顧客からきちんと認知されるには、
+    何が必要なのか。
+    その問いを、データで確かめていくことをゴールとしています。
   </p>
 
   <p>
@@ -155,30 +160,11 @@
     <li>同じ質問を繰り返したとき、回答はどれだけ揺れるのか</li>
   </ul>
 
-  <h2>言えること、言えないこと</h2>
-
-  <p>
-    「AI検索対策をすれば、予約が増えます」とは言えません。
-    その因果関係は、まだ誰も証明していないからです。
-    私自身、調査のたびに予想を外しています。
-  </p>
-
-  <p>
-    それでも、変化があったかどうかは測ることができます。
-    AIに言及される割合、AI経由のアクセス、実際の予約数。
-    この三つを前後で比べれば、少なくとも「動いたかどうか」は分かります。
-  </p>
-
-  <p>
-    このラボでは、何も販売していません。
-    外れた仮説も含めて、測った記録をそのまま公開していくつもりです。
-  </p>
-
   <h2 id="contact">連絡</h2>
 
   <p>
     調査の方法について詳しく知りたい方、ご自身の業種でも調べてみたい方、
-    内容への指摘やご批判など、どうぞお気軽にご連絡ください。
+    内容へのご意見など、どうぞお気軽にご連絡ください。
   </p>
 
   <p>
@@ -187,7 +173,7 @@
 
   <p style="font-size:15px; color:#666">
     ※ 現在は会社に勤務しており、個人での受託は行っておりません。
-    調査結果の共有や、調べ方のご説明は無償で対応しています。
+    調査結果の共有や、調べ方のご説明は、研究の趣旨に沿うものであれば無償で対応しています。
   </p>
 
 </main>
@@ -195,7 +181,7 @@
 <footer>
   <div class="wrap">
     <p><strong>鴨川AI検索ラボ</strong> — Kamogawa AI Search Lab</p>
-    <p>生成AIは、事業者のことを顧客の言語でどう伝えているか。日・英・中で調査し、記録を公開しています。</p>
+    <p>生成AIは、事業者のことを顧客の言語でどう伝えているか。日・英・中など多言語で調査し、記録を公開しています。</p>
     <p style="margin-top:16px">京都市 ｜ kamogawa.ai.lab@gmail.com</p>
     <p>個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</p>
   </div>

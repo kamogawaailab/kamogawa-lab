@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>鴨川AI搜尋研究室｜生成式AI如何以顧客的語言描述商家？</title>
-<meta name="description" content="測量生成式AI如何以顧客的語言認知、描述商家的獨立研究專案。以日、英、中文進行實測並公開紀錄。">
+<meta name="description" content="測量生成式AI如何以顧客的語言認知、描述商家的獨立研究專案。以日、英、中文等多語言進行實測並公開紀錄。">
 <link rel="canonical" href="https://kamogawa-lab.jp/zh-tw/">
 <link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
 <link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/">
 <link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/">
 <link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="鴨川AI搜尋研究室｜生成式AI如何以顧客的語言描述商家？">
@@ -23,9 +24,9 @@
       "@type": "Organization",
       "@id": "https://kamogawa-lab.jp/#organization",
       "name": "鴨川AI搜尋研究室",
-      "alternateName": ["Kamogawa AI Search Lab", "鴨川AI検索ラボ"],
+      "alternateName": ["Kamogawa AI Search Lab", "鴨川AI検索ラボ", "鸭川AI搜索研究室"],
       "url": "https://kamogawa-lab.jp/",
-      "description": "測量生成式AI如何以顧客的語言認知、描述商家的獨立研究專案。以日、英、中文進行實測並公開紀錄。",
+      "description": "測量生成式AI如何以顧客的語言認知、描述商家的獨立研究專案。以日、英、中文等多語言進行實測並公開紀錄。",
       "email": "kamogawa.ai.lab@gmail.com",
       "foundingDate": "2026-07",
       "location": { "@type": "Place", "name": "Kyoto" },
@@ -51,6 +52,7 @@
         <a href="/" hreflang="ja">日本語</a>
         <a href="/en/" hreflang="en">EN</a>
         <a href="/zh-tw/" hreflang="zh-Hant" aria-current="true">繁中</a>
+        <a href="/zh-cn/" hreflang="zh-Hans">简中</a>
       </span>
     </nav>
   </div>
@@ -60,23 +62,22 @@
   <h1>在顧客的語言裡，<br>你的店是什麼樣子？</h1>
 
   <p class="lede">
-    當旅客想「在京都體驗茶道」時，答案漸漸不再來自 Google，而是 AI——
+    當旅客想「在京都體驗茶道」時，答案越來越常來自 AI，而不是 Google——
     通常是三到五家店的清單。
-    誰在裡面，誰不在？
-    我以日文、英文、中文親自測試，並留下紀錄。
+    被選中的店家，和沒被選中的店家，差別在哪裡？
+    我以日文、英文、中文等多種語言實際測試，並分析結果。
   </p>
 
   <div class="callout">
     <p><strong>來自2026年7月的調查</strong></p>
     <p>
       我以日文、英文、繁體中文、簡體中文，向AI詢問京都的十家體驗店家。
-      一家擁有超過500則好評的店，被AI回答「查無此店」，
+      一家在 Google 地圖上擁有超過500則好評的店，被AI回答「查無此店」，
       接著被當成另一家完全不同的店來介紹；
       而唯一被AI正確報出價格的，是一間個人經營的小茶室。
     </p>
     <p>
-      調查之前，我以為結果會由規模和知名度決定。
-      結果並不是。
+      這樣的差別，是從哪裡來的？
     </p>
     <p style="margin-top:16px">
       → <a href="/reports/kyoto-experience-2026/"><strong>閱讀調查報告</strong></a>（日文）
@@ -93,7 +94,9 @@
   <p>
     這個領域有幾種名稱——GEO（生成式引擎優化）、LLMO、AIO——
     新到連名稱都還沒有定下來。
-    正因如此，我想先從測量和留下紀錄開始，再談結論。
+    追逐這些名詞，或是再添一個空有其名的新詞，都不是本研究室的目的。
+    我想弄清楚的是：在AI的時代，店家要被顧客好好認知，
+    需要的是什麼。用數據來回答這個問題，是這裡的目標。
   </p>
 
   <p>
@@ -101,30 +104,11 @@
     與任何大學、團體均無關聯。
   </p>
 
-  <h2>能說的，與不能說的</h2>
-
-  <p>
-    我沒辦法告訴你「做了AI優化，訂單就會增加」。
-    因為還沒有人證明過這個因果關係，
-    而我自己的預測，也不只一次落空。
-  </p>
-
-  <p>
-    我能說的是：變化是可以測量的。
-    被提及率、來自AI的流量、實際訂單數——
-    在行動前後比較這三項，至少能知道有沒有變化。
-  </p>
-
-  <p>
-    本研究室不販售任何服務。我會把測到的紀錄原樣公開，
-    包括被推翻的假設。
-  </p>
-
   <h2>聯絡</h2>
   <p><strong>kamogawa.ai.lab@gmail.com</strong></p>
   <p style="font-size:15px;color:#666">
     目前為在職狀態，不承接個人委託。
-    調查結果的分享與方法說明，皆無償提供。
+    與研究宗旨相符的範圍內，調查結果的分享與方法說明皆無償提供。
   </p>
 </main>
 <footer>
