@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>鴨川AI検索ラボ｜生成AIは、京都の事業者をどう認識しているか</title>
-<meta name="description" content="生成AI（ChatGPT・Gemini等）が京都の事業者をどのように認識し、紹介しているか。日本語・英語・中国語で実測し、記録を公開している個人研究プロジェクトです。">
+<title>鴨川AI検索ラボ｜生成AIは、事業者を顧客の言語でどう伝えているか</title>
+<meta name="description" content="生成AI（ChatGPT・Gemini等）が、事業者を顧客の言語でどのように伝えているか。日本語・英語・中国語で実測し、記録を公開している個人研究プロジェクトです。">
 
 <link rel="canonical" href="https://kamogawa-lab.jp/">
 <link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
@@ -14,8 +14,8 @@
 <link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="鴨川AI検索ラボ">
-<meta property="og:description" content="生成AIが、京都の事業者をどう認識しているか。日・英・中で調査し、記録を公開しています。">
+<meta property="og:title" content="鴨川AI検索ラボ｜生成AIは、事業者を顧客の言語でどう伝えているか">
+<meta property="og:description" content="生成AIは、事業者を顧客の言語でどう伝えているか。日・英・中で調査し、記録を公開しています。">
 <meta property="og:url" content="https://kamogawa-lab.jp/">
 <meta property="og:site_name" content="鴨川AI検索ラボ">
 <meta property="og:locale" content="ja_JP">
@@ -27,7 +27,7 @@
   ============================================================
   構造化データ
 
-  当ラボの主張は「AIは、自分を主語として語られた、
+  当ラボの作業仮説は「AIは、事業者自身を主語として語られた、
   引用可能な事実しか信用しない」である。
   したがってこのサイト自身が、その実践例でなければならない。
 
@@ -46,13 +46,9 @@
       "name": "鴨川AI検索ラボ",
       "alternateName": ["Kamogawa AI Search Lab", "鴨川AI搜尋研究室"],
       "url": "https://kamogawa-lab.jp/",
-      "description": "生成AIが事業者をどのように認識・紹介しているかを、日本語・英語・中国語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
+      "description": "生成AIが事業者を顧客の言語でどのように伝えているかを、日本語・英語・中国語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
       "email": "kamogawa.ai.lab@gmail.com",
       "foundingDate": "2026-07",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "京都府"
-      },
       "location": {
         "@type": "Place",
         "name": "京都市"
@@ -63,8 +59,7 @@
         "AI検索最適化 (GEO / LLMO)",
         "エンティティ設計",
         "構造化データ",
-        "多言語での情報設計",
-        "京都の観光事業者"
+        "多言語での情報設計"
       ],
       "sameAs": [
         "https://note.com/kamogawaailab",
@@ -107,13 +102,13 @@
 
 <main class="wrap">
 
-  <h1>生成AIは、あなたの店を<br>正しく紹介しているか。</h1>
+  <h1>あなたの店は、<br>顧客の言語でどう伝わっているか。</h1>
 
   <p class="lede">
-    観光客が「京都で茶道体験がしたい」と思ったとき、
+    旅行者や消費者が何かを探すとき、
     その入り口はGoogleからAIへと移りつつあります。
-    返ってきた3〜5軒の中に、誰が入っているのか。
-    それを、実際に測っています。
+    返ってきた3〜5件の中に、誰が入っているのか。
+    それを、日本語・英語・中国語で実測しています。
   </p>
 
   <div class="callout">
@@ -145,19 +140,6 @@
     <strong>特定の団体・大学等とは関係ありません。</strong>
   </p>
 
-  <h3>なぜやっているのか</h3>
-
-  <p>
-    この分野には、まだ確立された正解がありません。
-    「AI検索で1位を保証します」と語るサービスもありますが、
-    生成AIの回答は確率的に変動するため、そのような保証は原理的に不可能です。
-  </p>
-
-  <p>
-    足りないのは技術ではなく、<strong>実測されたデータ</strong>だと考えています。
-    だから測っています。そして、<strong>外れた仮説も含めて公開します。</strong>
-  </p>
-
   <h3>調べていること</h3>
 
   <ul>
@@ -167,22 +149,23 @@
     <li>同じ質問を繰り返したとき、回答はどれだけ揺れるのか</li>
   </ul>
 
-  <h3>言えること、言えないこと</h3>
+  <h2>言えること、言えないこと</h2>
 
   <p>
-    <strong>「AI対策をすれば予約が増える」とは言いません。</strong>
-    まだ誰も、その因果を証明していないからです。
+    <strong>「AI検索対策をすれば予約が増える」とは言いません。</strong>
+    その因果は、まだ誰も証明していないからです。
   </p>
 
   <p>
-    <strong>ただし、変化したかどうかは測定できます。</strong>
-    言及率、AI経由の流入、実際の予約数。
-    この3つを施策の前後で追跡すれば、動いたかどうかは分かります。
+    <strong>ただし、変化は測定できます。</strong>
+    言及率、AI経由の流入、予約数——
+    施策の前後でこの三つを追跡すれば、動いたかどうかは分かります。
   </p>
 
   <p>
-    保証はできない。しかし、測定はできる。
-    そこを引き受けたいと考えています。
+    当ラボは、何も販売していません。
+    外れた仮説も含めて、実測の記録をそのまま公開します。
+    <strong>保証ではなく、データで語ります。</strong>
   </p>
 
   <h2 id="contact">連絡</h2>
@@ -205,7 +188,7 @@
 <footer>
   <div class="wrap">
     <p><strong>鴨川AI検索ラボ</strong> — Kamogawa AI Search Lab</p>
-    <p>生成AIが、京都の事業者をどう認識しているか。日・英・中で調査し、記録を公開しています。</p>
+    <p>生成AIは、事業者を顧客の言語でどう伝えているか。日・英・中で調査し、記録を公開しています。</p>
     <p style="margin-top:16px">京都市 ｜ kamogawa.ai.lab@gmail.com</p>
     <p>個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</p>
   </div>
