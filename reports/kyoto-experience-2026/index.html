@@ -3,12 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AIは、京都のあなたの店を正しく紹介しているか｜Kääselä</title>
-<meta name="description" content="京都の体験施設10軒を、日・英・繁体字・簡体字で調査。口コミ500件超の人気店が「存在しない」と言われ、別の店として紹介された。違いは規模でも口コミ数でもなかった。">
+<title>Googleマップでは高評価。それでもAIは「その店は確認できませんでした」と答えた｜Kääselä</title>
+<meta name="description" content="京都の体験店10店舗を、日本語・英語・繁体字中国語・簡体字中国語の4言語で検証。Googleマップで★4.9・口コミ500件超の人気店が、AIには『確認できませんでした』と言われ、別の店として紹介された。違いは規模でも口コミ数でもなかった。">
 <link rel="canonical" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/">
+<link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/">
+<link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/">
+<link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AIは、京都のあなたの店を正しく紹介しているか">
-<meta property="og:description" content="体験施設10軒を、日・英・繁体字・簡体字で調べてみた。">
+<meta property="og:title" content="Googleマップでは高評価。それでもAIは「その店は確認できませんでした」と答えた">
+<meta property="og:description" content="京都の体験店10店舗を4言語で検証して見えてきたこと。">
 <meta property="og:url" content="https://kamogawa-lab.jp/reports/kyoto-experience-2026/">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
@@ -17,11 +22,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "AIは、京都のあなたの店を正しく紹介しているか",
-  "alternativeHeadline": "体験施設10軒を、日・英・繁体字・簡体字で調べてみた",
-  "description": "京都の体験施設10軒に対し、生成AIが日本語・英語・繁体字・簡体字でどう回答するかを実測。口コミ500件超の店が『存在しない』と回答され、別店として紹介された事例を含む。",
+  "headline": "Googleマップでは高評価。それでもAIは「その店は確認できませんでした」と答えた",
+  "alternativeHeadline": "京都の体験店10店舗を、日本語・英語・繁体字中国語・簡体字中国語の4言語で検証してみた",
+  "description": "京都の体験店10店舗に対し、生成AIが日本語・英語・繁体字中国語・簡体字中国語でどう回答するかを実測。口コミ500件超の店が『確認できませんでした』と回答され、別店として紹介された事例を含む。",
   "datePublished": "2026-07-14",
-  "dateModified": "2026-07-14",
+  "dateModified": "2026-07-16",
   "inLanguage": "ja",
   "url": "https://kamogawa-lab.jp/reports/kyoto-experience-2026/",
   "mainEntityOfPage": "https://kamogawa-lab.jp/reports/kyoto-experience-2026/",
@@ -34,7 +39,7 @@
     "エンティティ設計",
     "京都の観光事業者"
   ],
-  "keywords": "AI検索, 生成AI, ChatGPT, GEO, LLMO, 京都, 観光, 多言語, エンティティ"
+  "keywords": "AI検索, 生成AI, ChatGPT, GEO, LLMO, 京都, 観光, 多言語, エンティティ, まとめ記事"
 }
 </script>
 </head>
@@ -46,318 +51,212 @@
       <span>Kamogawa AI Search Lab</span>
     </a>
     <nav>
-      <a href="/">ホーム</a>
-      <a href="/#contact">連絡</a>
+      <span class="langs">
+        <a href="/reports/kyoto-experience-2026/" hreflang="ja" aria-current="true">日本語</a>
+        <a href="/en/reports/kyoto-experience-2026/" hreflang="en">EN</a>
+        <a href="/zh-tw/reports/kyoto-experience-2026/" hreflang="zh-Hant">繁中</a>
+        <a href="/zh-cn/reports/kyoto-experience-2026/" hreflang="zh-Hans">简中</a>
+      </span>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
   <article>
-    <h1>AIは、京都のあなたの店を<br>正しく紹介しているか</h1>
-    <p class="lede">——体験施設10軒を、日・英・繁体字・簡体字で調べてみた</p>
+    <h1>Googleマップでは高評価。<br>それでもAIは「その店は確認できませんでした」と答えた</h1>
+    <p class="lede">――京都の体験店10店舗を、日本語・英語・繁体字中国語・簡体字中国語の4言語で検証してみた</p>
     <p class="meta">2026年7月14日 ｜ Kääselä</p>
 
-<h2>1. 四つの事例</h2>
-<p>AIは、事業者を四つのいずれかの状態で扱っていました。</p>
-<h3>事例A｜正しく理解されている</h3>
-<p><strong>A店｜茶道体験・清水寺エリア・個人経営</strong></p>
-<p>「A店の費用と所要時間は？」と聞くと、AIはこう答えます。</p>
+<p>ある着物レンタル店は、Googleマップで★4.9、口コミは500件以上ある。ところが、その店名をChatGPTに入力して詳しく聞いてみると、返ってきたのは「その店舗は確認できませんでした」という答えだった。そしてAIは、その代わりに、名前のよく似た別の店を勧めてきた。</p>
+<p>一方で、口コミ数がその半分ほどしかない小さな茶室については、料金や所要時間まで、一字一句そのまま正確に説明していた。</p>
+<p>AI時代、店はどうすれば顧客に知ってもらえるのか。本レポートでは、京都の体験型店舗10店を対象に、日本語・英語・繁体字中国語・簡体字中国語の4言語で生成AIに質問し、その結果と観察から見えてきたことをまとめた。</p>
+
+<hr>
+<h2>【指名検索の4つのパターン】AIはあなたの店をどう理解しているのか</h2>
+<p>今回の調査では、AIの店舗に対する反応は、大きく4つのパターンに分けられた。</p>
+
+<h3>A｜正確に認識されている</h3>
+<p><strong>A店｜茶道体験・清水寺周辺</strong></p>
+<p>「A店の料金と所要時間は？」と尋ねると、AIは3つのプランそれぞれの料金と所要時間を正確に説明し、さらに子ども連れで参加する際の注意点まで紹介していた。内容はすべて正しく、引用元もすべてこの店の公式サイトだった。</p>
+<p>もともと私は、「質問する言語が違えば、AIの答えも変わるのではないか」と考えていた。しかし、特定の1店舗について尋ねる場合、その違いは見られなかった。この店には中国語版のページはない。それでも繁体字中国語で質問すると、同じ精度で答えてくれる。AIが読んでいるのは日本語の公式サイトに書かれた事実であり、それを自分で繁体字中国語へ翻訳して答えているだけだった。</p>
+<p>つまり、本当に必要なのは「多言語ページ」ではない。AIが理解でき、そして引用できる形で整理された事実なのである。</p>
+<p>この店は小さな茶室で、SNSで多くのフォロワーを抱えているわけでもない。それでもAIに伝わる情報は非常によく整理されており、海外からの旅行者にも誤って伝えられることはないだろう。</p>
+
+<h3>B｜内容が推測で補われている</h3>
+<p><strong>B店｜茶道体験</strong></p>
+<p>AIはこの店を認識している。住所も営業時間も、口コミの評価も正しかった。しかし、料金について尋ねると情報は出てこない。そして所要時間については、こんな説明が返ってきた。</p>
+<blockquote>
+<p>体験時間（約60〜90分のプランが中心）</p>
+</blockquote>
+<p>あとで確認すると、この数字に根拠はなかった。AIが他店の相場から推測し、空白を埋めていたのである。</p>
+<p>しかも同じ回答の中で、AIはB店と他の茶道体験を並べて紹介し、「それぞれの違いも比較できます」と続けていた。つまりAIにとってB店は、「他の茶道体験とだいたい同じような店」としか認識されていなかった。</p>
+<p>これは、店側がもっとも気づきにくい状態でもある。店名は検索できる。住所も合っている。だから問題ないように見える。しかし、その中身は、AIが想像で埋め合わせている。</p>
+
+<h3>C｜「存在しない」と判断される</h3>
+<p><strong>C店｜着物レンタル</strong></p>
+<p>Googleマップでは★4.9。口コミは500件以上ある（いずれも2026年7月時点）。海外からの旅行者による評価も高い。そんなこの店についてChatGPTに尋ねると、返ってきたのは次のような答えだった。</p>
+<blockquote>
+<p>「（C店名）」という店舗は確認できませんでした。</p>
+</blockquote>
+<p>そして、その代わりに名前のよく似た別の店を2店舗紹介してきた。繁体字中国語で質問すると、さらに率直だった。</p>
+<blockquote>
+<p>京都では、この名前の店は見つかりませんでした。</p>
+</blockquote>
+<p>500件を超える高評価は、AIには届いていなかった。</p>
+
+<h3>D｜別の店と混同される</h3>
+<p>同じ店について、同じ質問をもう一度してみた。すると今度は、答えが変わった。</p>
+<blockquote>
+<p>おそらく「（別の店名）」のことを指していると思われます。評価は5.0、口コミは約1,600件以上あり、非常に人気があります。</p>
+</blockquote>
+<p>しかし、それは別の店だった。同じ京都市内にあり、漢字が一文字違うだけの別法人で、独自ドメインの公式サイトも持っている。つまりAIは、見つけられなかったC店を、名前のよく似た別の店として認識してしまっていたのである。</p>
+<p>注目したいのは、「おそらく」という表現だった。AI自身にも確信はない。同じ質問に対して、1回目と2回目で矛盾する答えを返したこと自体が、その証拠である。AIはC店を知らないのではない。判断するための材料を持っていない。だから、そのたびに推測している。</p>
+<p>本当に怖いのはここだ。C店に寄せられた500件以上の高評価は、今この瞬間も競合店へ客を送り続けているのかもしれない。そして、そのことに店側は気づいていない可能性が高い。</p>
+
+<p>この4つの違いを分けていたのは、店の規模ではなかった。</p>
+<table>
+<thead>
+<tr><th>店舗</th><th>口コミ数</th><th>AIの反応</th></tr>
+</thead>
+<tbody>
+<tr><td>C店（着物レンタル）</td><td>518件</td><td>存在しないと判断される／別の店と混同される</td></tr>
+<tr><td>A店（茶道体験）</td><td>272件</td><td>料金やプラン、来店時の注意事項まで正確に説明される</td></tr>
+</tbody>
+</table>
+<p>口コミが多い店のほうが、AIには見えていなかった。</p>
+
+<hr>
+<h2>【方向性は2つ】指名検索では自分の情報が、推薦では他者の評価が見られている</h2>
+<p>上記のような違いは、それぞれの店が「どこに情報を置いているか」にあった。比較のため、もう1店舗（E店）を加えてみる。E店には独自ドメインの公式サイトはなく、予約SaaSのページが1つあるだけだった。それでもAIは、この店をきちんと認識していた。</p>
+<table>
+<thead>
+<tr><th>店舗</th><th>情報が置かれている場所</th><th>そのページの主語</th><th>結果</th></tr>
+</thead>
+<tbody>
+<tr><td>A店</td><td>自社サイト（日・中）</td><td>A店</td><td>正確に引用される</td></tr>
+<tr><td>E店</td><td>予約SaaSのページ</td><td>E店</td><td>認識され、引用される</td></tr>
+<tr><td>B店</td><td>無料CMSのページ</td><td>B店</td><td>認識はされるが、引用されない</td></tr>
+<tr><td>C店</td><td><strong>予約プラットフォームの商品ページ</strong></td><td><strong>プラットフォーム</strong></td><td><strong>店舗として認識されない</strong></td></tr>
+</tbody>
+</table>
+<p>C店の「公式サイト」として登録されていたのは、予約プラットフォーム上の紹介ページだった。しかし、そのページの主体はC店ではなく、予約プラットフォームである。AIから見ると、C店は「1つの店」ではなく、「予約サイトの中にある1つの商品」として存在していた。</p>
+<p>ここから見えてきたことは、とてもシンプルだった。</p>
+<blockquote>
+<p><strong>AIが認識するのは、キーワードでもページでもない。エンティティ（Entity）である。</strong></p>
+</blockquote>
+<p>そして、エンティティとして認識されるのは、「自分自身について語り、その内容を引用できるページ」を持っている店だった。この意味で、C店はまだ「1つのエンティティ」になれていなかった。なぜなら、予約サイトの中の1つの商品としてしか存在していなかったからである。</p>
+<p>もちろん、これは必ずしも独自ドメインの公式サイトを作らなければならない、という話ではない。E店には独自ドメインはない。それでも、予約SaaSのページの主語がE店自身だったため、AIはそのページを「E店について書かれた情報」として認識していた。AIが必要としているのは、独自ドメインではない。引用できる形で存在する、「あなた自身の情報」である。</p>
+
+<h3>ただし、質問の仕方が変わると、AIが見に行く情報源も変わる</h3>
+<p>これは前半で触れた「言語によって答えは変わるのか」という検証と並んで、今回もっとも興味深かった発見の1つだった。</p>
+<p>例えば、「A店はどんな店ですか？」と店名を指定して質問すると、AIが参照するのはA店の公式サイトだった。料金も所要時間も、店自身が公開している情報から答えている。</p>
+<p>しかし、「京都でおすすめの茶道体験は？」という探索型の質問に変えると、AIが参照する情報源は一変した。</p>
 <ul>
-<li>相席プラン ¥3,300／約40分</li>
-<li>プレミアム相席 ¥6,600／約50分</li>
-<li>貸切 ¥30,800／最大10名</li>
-<li>5歳以下のお子様連れは貸切プランをご予約ください</li>
+<li>大手旅行メディア（Lonely Planetなど）</li>
+<li>京都市や日本政府観光局などの観光サイト</li>
+<li>訪日観光客向けの「おすすめ◯選」記事</li>
+<li>Reddit</li>
 </ul>
-<p><strong>すべて正確です。</strong> 引用元はいずれも同店の公式サイトでした。</p>
-<p>そして注目すべきは、<strong>繁体字で聞いても同じ精度で返ってくる</strong>ことです。同店が中国語ページを用意しているため、AIはそれを引用できます。</p>
-<p>個人経営の小さな店です。それでも、AIは完全にコントロールされていました。</p>
-<h3>事例B｜内容を創作されている</h3>
-<p><strong>B店｜茶道体験・自宅の茶室で開催</strong></p>
-<p>AIはこの店を認識していました。住所も、営業時間も、口コミ評価も正確です。</p>
-<p>しかし——<strong>料金は一切答えられませんでした。</strong> そして所要時間について、AIはこう書きました。</p>
-<blockquote>
-<p>体験時間（約60〜90分程度のプランが多い）</p>
-</blockquote>
-<p><strong>この数字に出典はありません。</strong> AIが他店の相場から推測して、空欄を埋めたものです。</p>
-<p>さらに同じ回答の中で、AIはB店を他の茶道体験施設と並べ、「それぞれの違いも比較してご紹介できます」と述べました。つまりAIは、B店について<strong>「他の茶道体験と同じようなもの」としか理解していない</strong>のです。</p>
-<p>これは、オーナー本人が最も気づきにくい状態です。名前は出てくる。住所も合っている。だから問題があるとは思わない。しかし中身は、AIの想像で埋められています。</p>
-<h3>事例C｜「存在しない」と言われる</h3>
-<p><strong>C店｜着物レンタル・東山エリア</strong></p>
-<p>Googleの評価は4.9、口コミは500件を超えています。外国人客からの評判も上々です。</p>
-<p>その店について ChatGPT に聞いた結果は、こうでした。</p>
-<blockquote>
-<p>「（C店の名前）」という名前のお店は確認できませんでした。</p>
-</blockquote>
-<p>そして代わりに、名前の似た別の店を二軒、提案してきました。</p>
-<p>繁体字ではさらに明確でした。</p>
-<blockquote>
-<p>京都には、その名前の店は見つかりません。</p>
-</blockquote>
-<p><strong>500件を超える高評価は、AIには一切届いていませんでした。</strong></p>
-<h3>事例D｜他店に吸収される</h3>
-<p>同じ質問を、もう一度しました。すると今度は違う答えが返ってきました。</p>
-<blockquote>
-<p>（別の店名）のことだと思われます。評価は5.0、口コミは約1,600件以上と非常に好評です。</p>
-</blockquote>
-<p><strong>これは別の店です。</strong> 同じ京都市内にある、漢字表記が一文字違う別法人。自社ドメインを持ち、京都市の観光サイトにも掲載されている店でした。</p>
-<p>つまりAIは、証拠を持たないC店を、名前が似ていて証拠を持つ別の店に<strong>統合してしまった</strong>わけです。</p>
-<p>注目すべきは、AIが「<strong>〜だと思われます</strong>」と書いていることです。AI自身、確信を持っていません。同じ質問に2回、矛盾する答えを返したことが、その証拠です。</p>
-<p><strong>AIはC店を知らないのではありません。判断の根拠を持っていないので、毎回推測しているのです。</strong></p>
-<p>この状態の何が怖いか。<strong>C店の500件を超える高評価が、いま競合の集客を助けている可能性がある</strong>ということです。そして店側には、それに気づく方法がありません。</p>
-<hr>
-<h2>2. 何が明暗を分けたのか</h2>
-<p>規模ではありませんでした。</p>
+<p>体験店の公式サイトは、ほとんど引用されなかった。</p>
 <table>
 <thead>
-<tr>
-<th></th>
-<th>口コミ数</th>
-<th>AIでの扱い</th>
-</tr>
+<tr><th>質問の仕方</th><th>AIが見ている情報</th><th>力を入れるべき場所</th></tr>
 </thead>
 <tbody>
-<tr>
-<td>C店（着物）</td>
-<td>518件</td>
-<td>存在しない／他店と混同される</td>
-</tr>
-<tr>
-<td>A店（茶道）</td>
-<td>272件</td>
-<td>料金まで正確に説明される</td>
-</tr>
+<tr><td>指名検索（「○○はどんな店？」）</td><td>店の公式情報</td><td>正しく伝えてもらいたいなら、ここ</td></tr>
+<tr><td>探索型（「京都でおすすめの○○は？」）</td><td>第三者の記事・まとめサイト</td><td>最初に見つけてもらいたいなら、ここ</td></tr>
 </tbody>
 </table>
-<p><strong>口コミの多い店のほうが、AIには見えていませんでした。</strong></p>
-<p>違いは、それぞれの店の「情報の置き場所」にありました。</p>
+<p>この2つは、まったく別の課題である。公式サイトを整えることは、「すでに自分を知っている人」に対して正しく理解してもらうためのもの。一方で、「京都で茶道体験をしたい」と尋ねた人に見つけてもらえるかどうかは、他の誰かがあなたの店について書いているかどうかに左右される。</p>
+
+<hr>
+<h2>【適用範囲】言語ごとに勝つ店は違う──ただし、業種による</h2>
+<p>同じ「京都でおすすめの○○体験は？」という質問を4つの言語で試してみると、業種によって結果は大きく異なった。</p>
+
+<h3>茶道体験──4言語とも、登場するのは同じ3店舗</h3>
+<p>日本語、英語、繁体字中国語、簡体字中国語。どの言語で質問しても、おすすめとして挙がるのは同じ3店舗だった。言語による違いは、ほとんど見られなかった。</p>
+
+<h3>着物レンタル──4言語すべてに登場する店は1つもなかった</h3>
 <table>
 <thead>
-<tr>
-<th></th>
-<th>情報の置き場所</th>
-<th>そのページの主語</th>
-<th>結果</th>
-</tr>
+<tr><th>店舗</th><th style="text-align:center;">日</th><th style="text-align:center;">英</th><th style="text-align:center;">繁</th><th style="text-align:center;">簡</th></tr>
 </thead>
 <tbody>
-<tr>
-<td>A店</td>
-<td>自社サイト（日・中）</td>
-<td>A店</td>
-<td>正確に引用される</td>
-</tr>
-<tr>
-<td>D店</td>
-<td>予約SaaSのページ</td>
-<td>D店</td>
-<td>認識・引用される</td>
-</tr>
-<tr>
-<td>B店</td>
-<td>無料CMSのページ</td>
-<td>B店</td>
-<td>認識されるが引用されない</td>
-</tr>
-<tr>
-<td>C店</td>
-<td><strong>予約プラットフォームの商品ページ</strong></td>
-<td><strong>プラットフォーム</strong></td>
-<td><strong>実体として成立せず</strong></td>
-</tr>
+<tr><td>店①</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;"></td></tr>
+<tr><td>店②</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;"></td></tr>
+<tr><td>店③</td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td></tr>
+<tr><td>店④（C店と混同された競合店）</td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;">●</td><td style="text-align:center;">●</td></tr>
+<tr><td>店⑤</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;">●</td></tr>
+<tr><td>店⑥</td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑦</td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑧</td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑨</td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑩</td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑪</td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;"></td><td style="text-align:center;"></td></tr>
+<tr><td>店⑫</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">●</td><td style="text-align:center;"></td></tr>
+<tr><td><strong>店⑬（業界最大手）</strong></td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"><strong>●</strong></td></tr>
+<tr><td>店⑭</td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;"></td><td style="text-align:center;">●</td></tr>
 </tbody>
 </table>
-<p>C店の「公式サイト」として登録されていたのは、予約プラットフォーム上の商品ページでした。そのページの主語は、C店ではなくプラットフォームです。</p>
-<p><strong>AIから見ると、C店は「店」ではなく「ある予約サイトの一商品」なのです。</strong></p>
-<p>ここから見えてくる原則は、ひとつです。</p>
+<p>ここからは、3つのことが見えてくる。</p>
+<p>1つ目。日本語でおすすめされた上位3店舗（店⑥・⑦・⑧）は、他のどの言語でも一度も登場しなかった。</p>
+<p>2つ目。業界最大手である店⑬は、簡体字中国語で質問したときだけ登場した。日本最大級の着物レンタル店であるにもかかわらず、日本語で「京都で着物を借りるなら？」と聞いても、AIはこの店を挙げなかった。</p>
+<p>3つ目。前半で紹介した、AIに正しく認識されなかったC店は、4言語すべてで一度も推薦されなかった。そのため、この表にも登場していない。さらに、C店について質問した際にAIが誤って関連付けた競合店は、英語・繁体字中国語・簡体字中国語の3言語でおすすめとして登場していた。</p>
+
+<h3>なぜ、ここまで違いが生まれるのか</h3>
+<p>引用元を見れば、その理由ははっきりする。</p>
+<table>
+<thead>
+<tr><th>言語</th><th>茶道体験で主に引用されていた媒体</th><th>着物レンタルで主に引用されていた媒体</th></tr>
+</thead>
+<tbody>
+<tr><td>日本語</td><td>japan.travel・japan-atlas など</td><td>着物レンタル比較ナビ など</td></tr>
+<tr><td>英語</td><td>Lonely Planet・Reddit など</td><td>Japan Cheapo など</td></tr>
+<tr><td>繁体字中国語</td><td>michi-japan・japan-atlas など</td><td>MATCHA・Japan Cheapo など</td></tr>
+<tr><td>簡体字中国語</td><td>（各言語共通の国際旅行メディア）</td><td>MATCHA・Japan Cheapo など</td></tr>
+</tbody>
+</table>
+<p>茶道体験では、どの言語もLonely Planetやjapan.travel、japan-atlasといった同じ国際旅行メディアを引用していた。だから、推薦される店もほぼ同じだった。</p>
+<p>一方で、着物レンタルは違う。日本語では「着物レンタル比較ナビ」、中国語圏ではMATCHA、英語ではJapan Cheapoというように、言語ごとにまったく異なる比較サイトを参照していた。見ている記事が違う以上、推薦される店も変わる。つまり、</p>
 <blockquote>
-<p><strong>AIは、「自分を主語として語られた、引用可能なページ」を持つ実体しか信用しない。</strong></p>
+<p><strong>AIがどの店を推薦するかは、その言語で「まとめ記事」を書いているメディアによって大きく左右される。</strong></p>
 </blockquote>
-<p>独自ドメインの有無ではありません。D店は予約SaaSのページしか持っていませんが、そのページは「D店」を主語に書かれているため、AIはきちんと認識していました。</p>
-<p><strong>問われているのは、あなた自身が語った事実が、引用できる形で存在するかどうかです。</strong></p>
+<p>しかも、ここで引用されていたのは、大手ニュースメディアではない。japan-atlas、MATCHA、Japan Cheapo、着物レンタル比較ナビ。いずれも「京都でおすすめの○○10選」のような記事を数多く掲載している旅行メディアやアフィリエイトサイトだった。少なくとも2026年7月時点では、こうした媒体が、実質的にAIの推薦先を決めているように見えた。</p>
+<p>だから、「多言語対応をすべきか」「どの言語に力を入れるべきか」という問いにも、今のところ万能な答えはない。少なくとも現時点では、自分の業種と、狙いたい言語圏において、AIが実際にどの情報源を参照しているのかを調べてみることが、一番確実な方法だと思われる。</p>
+
 <hr>
-<h2>3. AIは、質問の種類によって見る場所を変える</h2>
-<p>ここからが、今回いちばん意外だった発見です。</p>
-<h3>名指しで聞かれたとき</h3>
-<p>「A店ってどんなところ？」</p>
-<p>このときAIが引用したのは、<strong>その店の公式サイト</strong>でした。料金も所要時間も、すべて公式サイトから取っています。</p>
-<h3>「京都で〇〇」と聞かれたとき</h3>
-<p>「京都で茶道体験ができるおすすめの場所は？」</p>
-<p>このときAIが引用したのは——</p>
-<ul>
-<li>大手旅行ガイドメディア</li>
-<li>京都市および日本政府観光局の公式観光サイト</li>
-<li>訪日旅行者向けの「おすすめ〇選」系の記事</li>
-<li><strong>Reddit</strong></li>
-</ul>
-<p><strong>体験施設の公式サイトは、一件も引用されませんでした。</strong></p>
-<p>つまり、こういうことです。</p>
-<table>
-<thead>
-<tr>
-<th>質問の種類</th>
-<th>AIが見る場所</th>
-<th>対策すべき場所</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>名指し</strong>（「〇〇ってどんな店？」）</td>
-<td>あなたの公式サイト</td>
-<td><strong>正しく語られたい</strong>なら、ここ</td>
-</tr>
-<tr>
-<td><strong>探索</strong>（「京都で〇〇」）</td>
-<td><strong>第三者の記事・まとめメディア</strong></td>
-<td><strong>そもそも見つけられたい</strong>なら、ここ</td>
-</tr>
-</tbody>
-</table>
-<p><strong>この二つは、まったく別の課題です。</strong> そして多くの「AI検索対策」は、前者だけを扱っています。</p>
-<p>公式サイトをどれだけ完璧に整えても、<strong>「京都で茶道体験」と聞かれたときに、AIがあなたを思い出すことはありません。</strong> そのときAIが見ているのは、あなたのサイトではないからです。</p>
+<h2>【対策】質問の種類によって、打つべき手は変わる</h2>
+<p>今回の調査から見えてきた対策は、4つある。</p>
+
+<h3>① 店名で検索されたときに正しく伝わりたいなら → 引用できる事実を、自分で用意する</h3>
+<p>料金、所要時間、対応言語、予約の必要性。こうした情報を、事実として整理し、自分のページに掲載する。A店ができていたのは、まさにこれだった。一方でB店に足りなかったのは、AIにも正しく読み取れる形で、自分自身について説明する情報だった。そして、「予約サイトに載っているから大丈夫」と考えるべきではない。それでは、自分自身の情報を発信していることにはならない。</p>
+
+<h3>② 見つけてもらいたいなら → AIが見ている記事に載る</h3>
+<p>これは自社サイトの力だけではない。まとめ記事、比較サイト、観光メディアなど、AIが参照している第三者の記事に掲載されることが重要になる。もう1つ、今回意外だった情報源がある。それがRedditだ。英語で質問すると、AIは何度もRedditの投稿を引用していた。日本の店舗で、ここまで見ているところは、まだ多くないのではないだろうか。</p>
+
+<h3>③ 推薦型の質問では、どこで発信すべきか → 業種ごと、言語ごとに違う。だから測るしかない</h3>
+<p>今回の調査では、茶道体験と着物レンタルで、AIが参照する媒体はまったく違っていた。その結果、業種によっては、言語が変わるだけで推薦される店も変わっていた。一般論では答えは出ない。自分の業種で、自分が届けたい言語圏では、AIが実際に何を引用しているのか。今のところ、それを実際に調べることが、一番確実な方法だと思われる。</p>
+
+<h3>④ これからの可能性 → 独自の特徴を、自社サイトでアピール</h3>
+<p>今回の調査では、探索型の質問でも、独自ドメインを持ち、さらに「子ども連れ歓迎」のような独自の特徴を打ち出している店が、AIに取り上げられる場面も見られた。もちろん、まだ断言はできない。しかし、もしまとめ記事に頼らない方法を考えるのであれば、自分自身のページで、「この店ならでは」の特徴を明確に発信していくことは、小さな店舗にとって現実的な戦略になるのかもしれない。</p>
+
 <hr>
-<h2>4. 言語ごとに、勝者が違う——ただし業種による</h2>
-<p>四つの言語で同じ質問を投げたところ、業種によって正反対の結果が出ました。</p>
-<h3>茶道体験：四言語すべてで、同じ三軒</h3>
-<p>日本語・英語・繁体字・簡体字——どの言語で聞いても、同じ三軒が必ず登場しました。<strong>言語による差は、ほとんどありませんでした。</strong></p>
-<h3>着物レンタル：四言語すべてに登場した店は、一軒もなかった</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th style="text-align: center;">日</th>
-<th style="text-align: center;">英</th>
-<th style="text-align: center;">繁</th>
-<th style="text-align: center;">簡</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>店①</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>店②</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>店③</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-</tr>
-<tr>
-<td>店④</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;">●</td>
-</tr>
-<tr>
-<td>店⑤</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>店⑥</td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>店⑦</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>店⑧</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">●</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><strong>店⑨（業界大手）</strong></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><strong>●</strong></td>
-</tr>
-</tbody>
-</table>
-<p><strong>日本語で推薦された三軒は、他のどの言語にも登場しませんでした。</strong></p>
-<p>そして業界大手の一社は、<strong>簡体字でしか出てきませんでした。</strong> 日本語で「京都で着物レンタルをするならどこ？」と聞いても、AIはこの店を挙げません。</p>
-<h3>なぜ、こんな差が出るのか</h3>
-<p>引用元を見ると、答えが分かります。</p>
-<p><strong>茶道</strong>は、どの言語でも同じ国際的な旅行メディアが引用されていました。<strong>同じ記事を見ているので、同じ店が出てくる。</strong></p>
-<p><strong>着物レンタル</strong>は、言語ごとにまったく違う比較サイトが引用されていました。日本語では日本語の比較ナビ、中国語では中国語圏向けの訪日メディア、英語では英語圏の旅行サイト。<strong>別々の記事を見ているので、別々の店が出てくる。</strong></p>
-<blockquote>
-<p><strong>AIが推薦する店を決めているのは、その言語で「まとめ記事」を書いている媒体です。</strong></p>
-</blockquote>
-<p>したがって「多言語対応をすべきか」という問いに、一般的な答えはありません。<strong>あなたの業種を、どの媒体が押さえているか次第です。</strong></p>
-<p>そしてそれは、<strong>測れば分かります。</strong></p>
-<hr>
-<h2>5. では、どうすればいいのか</h2>
-<p>今回の調査から導かれる対策は、三つです。</p>
-<h3>① 名指しで正しく語られたい → 引用できる事実を、自分で置く</h3>
-<p>料金、所要時間、対応言語、予約の要否。これらを<strong>自社サイトに、明確な事実として書く</strong>。A店が実践していることです。</p>
-<p>「AIに読ませるための特別な技術」ではありません。<strong>書いてあるかどうか、それだけです。</strong> B店に足りなかったのは技術ではなく、書かれた事実でした。</p>
-<p>そして——<strong>予約プラットフォームに載せているから大丈夫、とは考えないでください。そのページの主語は、あなたではありません。</strong></p>
-<h3>② 見つけてもらいたい → AIが見ている記事に載る</h3>
-<p>これは自社サイトの作業ではありません。<strong>まとめ記事・比較サイト・観光メディアへの掲載</strong>、つまり広報の仕事です。</p>
-<p>そしてもうひとつ、意外な引用元があります。<strong>Reddit</strong> です。英語での質問において、AIは繰り返し Reddit のスレッドを参照していました。日本の事業者で、ここを見ている人はほとんどいません。</p>
-<h3>③ どの記事に載るべきか → 業種と言語ごとに違う。だから測る</h3>
-<p>茶道と着物では、AIが見ている媒体がまったく違いました。言語によっても違いました。</p>
-<p><strong>一般論では答えが出ません。</strong> あなたの業種、あなたの言語圏で、AIが実際に何を引用しているのか。そこを調べる以外に、方法はありません。</p>
-<hr>
-<h2>6. 効果は測定できます</h2>
-<p>「AI検索対策をすれば予約が増えますか？」</p>
-<p>この問いに、私は「増えます」とは言いません。まだ誰も、その因果を証明していないからです。</p>
-<p><strong>ただし、動いたかどうかは測れます。</strong></p>
-<ul>
-<li><strong>言及率</strong> — 同じ質問を繰り返し投げ、何回中何回言及されるかを記録する</li>
-<li><strong>AI経由の流入</strong> — アクセス解析で、生成AIからの流入を判別する</li>
-<li><strong>予約数</strong> — 店側が把握している</li>
-</ul>
-<p>この三つを施策の前後で追跡すれば、<strong>変化があったかどうかは分かります。</strong></p>
-<p>現状、多くのAI検索対策サービスは、この測定を行っていません。診断し、レポートを出し、そこで終わります。<strong>それでは、効果があったのかどうか、誰にも分かりません。</strong></p>
-<p><strong>保証はできない。しかし、測定はできる。</strong></p>
-<hr>
-<h2>7. この調査の限界</h2>
-<p>誠実に書いておきます。</p>
-<p><strong>サンプルが少ない。</strong> 10軒、1モデル、少数回の試行です。統計的な主張はできません。これは「調査結果」というより「事例報告」に近いものです。</p>
-<p><strong>AIの回答は毎回変わります。</strong> C店が1回目と2回目で違う答えになったことが、その証拠です。本来は同じ質問を何十回も投げ、<strong>分布</strong>として捉える必要があります。次の段階で実施します。</p>
-<p><strong>そして、いちばん重要な注意点。</strong></p>
-<p>生成AIは、利用者の過去の会話を記憶し、それに基づいて回答を変えます。</p>
-<p>つまり——<strong>ご自身のアカウントで ChatGPT に「京都でおすすめの茶道体験は？」と聞いて、自分の店が出てきたとしても、それは何の証拠にもなりません。</strong></p>
-<p><strong>AIが、あなたを覚えているだけかもしれないからです。</strong></p>
-<p>本調査は、記憶を無効化した状態で実施しています。測っているのは順位ではなく、<strong>「何も知らないAIが、あなたに言及する確率」</strong>です。</p>
-<p>そしてこう言えます。<strong>その状態で一度も現れない事業者は、どのようにパーソナライズされても現れません。</strong></p>
+<h2>本調査について</h2>
+<p>今回の調査は、あくまで個人による小規模な実験である。対象は10店舗、使用したモデルはChatGPTのみ。質問回数もごく限られている。そのため、統計的な結論を導くことはできず、あくまで一つの観察記録として受け取っていただきたい。</p>
+<p>言うまでもなく、生成AIの回答は毎回変化する。実際、C店についても、1回目と2回目ではまったく異なる答えが返ってきた。本来であれば、同じ質問を何十回も繰り返し、その分布まで含めて検証すべきだろう。</p>
+<p>また、現在では多くの生成AIが、ユーザーとの過去の会話を記憶し、それをもとに回答を変える仕組みを持っている。そのため、店舗の運営者自身が自分のアカウントで「京都でおすすめの○○は？」と質問し、自分の店が表示されたとしても、それだけでは何も証明できない。AIが、あなた自身との過去のやり取りを記憶していただけかもしれないからだ。今回の調査は、メモリ機能をオフにした状態で行った。</p>
+
 <hr>
 <h2>おわりに</h2>
-<p>この分野には、まだ確立された正解がありません。私自身、当初立てた仮説の半分は外れました。「日本語では出るが中国語では消えるだろう」という予想は、業種によって成立したり、しなかったりしました。</p>
-<p>外れた仮説も含めて、記録を公開していきます。<strong>この領域でいま最も不足しているのは、技術ではなく実測のデータだと考えているからです。</strong></p>
-<p>京都には、素晴らしいのに見つけてもらえていない店がたくさんあります。今回、料金まで正確にAIに語られていたのは、大手ではなく、個人経営の小さな茶室でした。</p>
-<p><strong>規模の問題ではないのです。</strong></p>
+<p>生成AI検索には、まだ十分に確立された方法論は存在しない。多くの人が、手探りで試行錯誤している段階だと思う。実際、私自身も、最初に立てた仮説の半分は外れた。「日本語では出てくる店が、中国語では消えるのではないか」という予想も、業種によって当てはまる場合と、そうでない場合があった。だから私は、当たった仮説だけでなく、外れた仮説も含めて、ここに記録していこうと思う。ここで私が残したいのは、もっともらしい理論ではない。実際に試して得られた観察記録である。</p>
+
 <hr>
-<p><em>本稿は個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</em></p>
-<p><em>調査手法の詳細、および同様の調査にご関心のある方は、ご連絡ください。</em></p>
+<h2>参考・背景</h2>
+<p>本記事で「エンティティ（Entity）」と呼んでいる考え方は、英語圏では entity-based SEO として知られており、生成AIの文脈では GEO（Generative Engine Optimization） の中で議論されている。学術的な出発点の一つとしてよく引用されるのが、Aggarwalらによる『GEO: Generative Engine Optimization』（arXiv:2311.09735、KDD 2024）である。同論文では、生成AIに情報を認識・利用してもらうための条件として、retrievable（検索可能であること）、groundable（根拠として利用できること）、citable（引用できること）の3つが整理されている。また、エンティティの認識には、Schema.orgなどの構造化データ、第三者サイトでの一貫した言及、一貫した識別子などが重要なシグナルになるとされている。一方で、「特定のレビューサイトに掲載されているとAIに引用されやすい」といった具体的な数値やノウハウについては、業界内で広く語られているものの、現時点では査読付き研究によって十分に検証されたものではない。本記事でも、その点については参考情報として扱っている。</p>
+
 <hr>
-<p><strong>Kääselä</strong>
-Kamogawa AI Search Lab
-<em>生成AIは、事業者のことを顧客の言語でどう伝えているか。日・英・中など多言語で調査し、記録を公開しています。</em></p>
+<p><em>本記事は、個人による調査・情報共有プロジェクトであり、特定の団体・大学・企業等とは関係ありません。</em></p>
+<p><em>調査方法の詳細や、自社の検証に興味のある方は、お気軽にご連絡ください。</em></p>
 
   </article>
 </main>
@@ -365,9 +264,9 @@ Kamogawa AI Search Lab
 <footer>
   <div class="wrap">
     <p><strong>Kääselä</strong> — Kamogawa AI Search Lab</p>
-    <p>生成AIは、事業者のことを顧客の言語でどう伝えているか。日・英・中など多言語で調査し、記録を公開しています。</p>
+    <p>生成AIは、顧客の言葉で、店をどのように語っているのか。私たちは、日本語・英語・中国語など複数の言語で生成AIを調査し、その結果を記録・公開しています。</p>
     <p style="margin-top:16px">京都市 ｜ kamogawa.ai.lab@gmail.com</p>
-    <p>個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</p>
+    <p>個人による調査・情報共有プロジェクトです。特定の団体・大学・企業等とは関係ありません。</p>
   </div>
 </footer>
 </body>

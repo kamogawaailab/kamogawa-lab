@@ -7,22 +7,55 @@
     <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/"/>
-    <lastmod>2026-07-15</lastmod>
-  </url>
-  <url>
-    <loc>https://kamogawa-lab.jp/reports/kyoto-experience-2026/</loc>
-    <lastmod>2026-07-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/"/>
+    <lastmod>2026-07-16</lastmod>
   </url>
   <url>
     <loc>https://kamogawa-lab.jp/en/</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-07-16</lastmod>
   </url>
   <url>
     <loc>https://kamogawa-lab.jp/zh-tw/</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-07-16</lastmod>
   </url>
   <url>
     <loc>https://kamogawa-lab.jp/zh-cn/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/reports/kyoto-experience-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/reports/kyoto-experience-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/reports/kyoto-experience-2026/"/>
+    <lastmod>2026-07-16</lastmod>
   </url>
 </urlset>
