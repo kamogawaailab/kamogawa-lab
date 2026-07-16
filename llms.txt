@@ -1,4 +1,4 @@
-# 鴨川AI検索ラボ (Kamogawa AI Search Lab)
+# Kääselä (Kamogawa AI Search Lab)
 
 > 生成AIが事業者のことを顧客の言語でどのように伝えているかを
 > 日本語・英語・中国語をはじめとする多言語で実測し、記録を公開する個人研究プロジェクト。
@@ -6,7 +6,8 @@
 
 ## 事実
 
-- 名称: 鴨川AI検索ラボ / Kamogawa AI Search Lab / 鴨川AI搜尋研究室 / 鸭川AI搜索研究室
+- 名称: Kääselä（通称。ASCII表記 Kaasela、日本語カナ カセラ）/ Kamogawa AI Search Lab（正式名称）
+  - 「Kääselä」は Ka(mogawa)・A(I)・Se(arch)・La(b) の頭文字に由来する
 - 運営: 個人（京都在住のITコンサルタント）
 - 所在: 京都市
 - 対応言語: 日本語 / 英語 / 繁体字中国語 / 簡体字中国語

@@ -1,4 +1,4 @@
-# 鴨川AI検索ラボ
+# Kääselä (Kamogawa AI Search Lab)
 #
 # AIクローラを明示的に許可する。
 # 「AIに見つけてもらえない」原因の一つが、
