@@ -2,24 +2,24 @@
   <title>Kääselä — Kamogawa AI Search Lab</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&amp;family=Inter:wght@500&amp;display=swap');
-    .wm{font-family:'Fraunces',Georgia,'Times New Roman',serif;font-optical-sizing:none;font-variation-settings:'opsz' 100}
+    .wm{font-family:'Fraunces',Georgia,'Times New Roman',serif;font-variation-settings:'opsz' 100}
     .sub{font-family:'Inter',system-ui,sans-serif}
   </style>
   <g stroke="#7CB7B0" stroke-width="0.9" fill="none" opacity="0.6">
-    <path d="M100 38 L114 38"/>
-    <path d="M114 38 L145 38"/>
-    <path d="M145 38 L159 38"/>
-    <path d="M159 38 L295 38"/>
-    <path d="M295 38 L309 38"/>
+    <path d="M98 38 L112 38"/>
+    <path d="M112 38 L138 38"/>
+    <path d="M138 38 L152 38"/>
+    <path d="M152 38 L272 38"/>
+    <path d="M272 38 L286 38"/>
   </g>
   <text class="wm" x="26" y="112" font-size="86" font-weight="500" fill="#222222" letter-spacing="1">Kaasela</text>
   <g>
-    <circle cx="100" cy="38" r="4" fill="#4A90A4"/>
-    <circle cx="114" cy="38" r="4" fill="#4A90A4"/>
-    <circle cx="145" cy="38" r="4" fill="#4A90A4"/>
-    <circle cx="159" cy="38" r="4" fill="#EADFCC" stroke="#D8C9A9" stroke-width="0.6"/>
-    <circle cx="295" cy="38" r="4" fill="#4A90A4"/>
-    <circle cx="309" cy="38" r="4" fill="#4A90A4"/>
+    <circle cx="98" cy="38" r="4" fill="#4A90A4"/>
+    <circle cx="112" cy="38" r="4" fill="#4A90A4"/>
+    <circle cx="138" cy="38" r="4" fill="#4A90A4"/>
+    <circle cx="152" cy="38" r="4" fill="#EADFCC" stroke="#D8C9A9" stroke-width="0.6"/>
+    <circle cx="272" cy="38" r="4" fill="#4A90A4"/>
+    <circle cx="286" cy="38" r="4" fill="#4A90A4"/>
   </g>
   <text class="sub" x="178" y="150" font-size="12" font-weight="500" fill="#666666"
         text-anchor="middle" letter-spacing="4.5">KAMOGAWA AI SEARCH LAB</text>

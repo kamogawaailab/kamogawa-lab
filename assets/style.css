@@ -75,7 +75,7 @@ header .wrap {
 .brand-wm { height: 30px; width: auto; display: block; }
 /* opsz を固定 → 大きく調整した見た目と小さなヘッダーで字形が一致し、点がずれない */
 .wm-t { font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
-        font-optical-sizing: none; font-variation-settings: 'opsz' 100; }
+        font-variation-settings: 'opsz' 100; }
 
 .brand span {
   display: block;
@@ -178,14 +178,14 @@ nav > a:hover { color: var(--deep); }
   border-bottom: 1px solid var(--line);
 }
 .hero-inner {
-  max-width: 980px;
+  max-width: 720px;          /* ヘッダー・本文と同じ幅に揃える */
   margin: 0 auto;
-  padding: 72px 24px 60px;
-  min-height: 300px;
+  padding: 64px 24px 56px;
+  min-height: 260px;
   display: flex;
   align-items: center;
 }
-.hero-copy { max-width: 30em; }
+.hero-copy { max-width: 32em; }
 .hero h1 {
   font-size: 34px;
   line-height: 1.4;
