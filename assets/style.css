@@ -73,7 +73,9 @@ header .wrap {
 
 /* インライン wordmark（Fraunces はページで読み込む） */
 .brand-wm { height: 30px; width: auto; display: block; }
-.wm-t { font-family: 'Fraunces', Georgia, 'Times New Roman', serif; }
+/* opsz を固定 → 大きく調整した見た目と小さなヘッダーで字形が一致し、点がずれない */
+.wm-t { font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+        font-optical-sizing: none; font-variation-settings: 'opsz' 100; }
 
 .brand span {
   display: block;
@@ -168,18 +170,22 @@ nav > a:hover { color: var(--deep); }
 /* --- Hero：水 → 知識グラフ（トップページ限定） --- */
 
 .hero {
-  background: var(--mist);
+  /* 静かなグラデーション：右上に朝靄のような青みがそっと差す */
+  background:
+    radial-gradient(120% 90% at 88% 6%, rgba(124,183,176,0.26) 0%, rgba(124,183,176,0) 55%),
+    radial-gradient(110% 80% at 76% 26%, rgba(74,144,164,0.15) 0%, rgba(74,144,164,0) 60%),
+    #F7F9FA;
   border-bottom: 1px solid var(--line);
 }
 .hero-inner {
   max-width: 980px;
   margin: 0 auto;
-  padding: 64px 24px 52px;
-  display: grid;
-  grid-template-columns: 1.05fr .95fr;
+  padding: 72px 24px 60px;
+  min-height: 300px;
+  display: flex;
   align-items: center;
-  gap: 40px;
 }
+.hero-copy { max-width: 30em; }
 .hero h1 {
   font-size: 34px;
   line-height: 1.4;
