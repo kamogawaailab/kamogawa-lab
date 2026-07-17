@@ -170,22 +170,47 @@ nav > a:hover { color: var(--deep); }
 /* --- Hero：水 → 知識グラフ（トップページ限定） --- */
 
 .hero {
-  /* 静かなグラデーション：右上に朝靄のような青みがそっと差す */
-  background:
-    radial-gradient(120% 90% at 88% 6%, rgba(124,183,176,0.26) 0%, rgba(124,183,176,0) 55%),
-    radial-gradient(110% 80% at 76% 26%, rgba(74,144,164,0.15) 0%, rgba(74,144,164,0) 60%),
-    #F7F9FA;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F4F8F9 100%);
   border-bottom: 1px solid var(--line);
 }
+/* 背景アニメーション（River Flow → 知識グラフ）を全面に敷く */
+.hero-flow {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+}
+/* 左側の白いヴェール：見出しの可読性を確保 */
+.hero-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0.90) 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0) 72%);
+}
 .hero-inner {
+  position: relative;
+  z-index: 2;
   max-width: 720px;          /* ヘッダー・本文と同じ幅に揃える */
   margin: 0 auto;
-  padding: 64px 24px 56px;
-  min-height: 260px;
+  padding: 92px 24px;
+  min-height: 460px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-.hero-copy { max-width: 32em; }
+.hero-copy { max-width: 30em; }
+@media (max-width: 820px) {
+  .hero-inner { min-height: 360px; padding: 60px 24px; }
+  .hero-veil {
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.4) 55%, rgba(255,255,255,0) 100%);
+  }
+}
 .hero h1 {
   font-size: 34px;
   line-height: 1.4;
