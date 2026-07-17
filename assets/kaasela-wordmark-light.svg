@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 4 336 116" width="336" height="116" role="img" aria-label="Kääselä">
+  <title>Kääselä</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&amp;display=swap');
+    .wm{font-family:'Fraunces',Georgia,'Times New Roman',serif}
+  </style>
+  <!-- graph edge, lifted to pass cleanly above the K and l ascenders -->
+  <g stroke="#7CB7B0" stroke-width="0.9" fill="none" opacity="0.6">
+    <path d="M100 30 L114 30"/>
+    <path d="M114 30 L145 30"/>
+    <path d="M145 30 L159 30"/>
+    <path d="M159 30 L295 30"/>
+    <path d="M295 30 L309 30"/>
+  </g>
+  <text class="wm" x="26" y="104" font-size="86" font-weight="500" fill="#222222" letter-spacing="1">Kaasela</text>
+  <!-- nodes: mostly River Blue, one Sand entity-highlight -->
+  <g>
+    <circle cx="100"  cy="30" r="4" fill="#4A90A4"/>
+    <circle cx="114" cy="30" r="4" fill="#4A90A4"/>
+    <circle cx="145" cy="30" r="4" fill="#4A90A4"/>
+    <circle cx="159" cy="30" r="4" fill="#EADFCC" stroke="#D8C9A9" stroke-width="0.6"/>
+    <circle cx="295" cy="30" r="4" fill="#4A90A4"/>
+    <circle cx="309" cy="30" r="4" fill="#4A90A4"/>
+  </g>
+</svg>

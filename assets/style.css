@@ -4,7 +4,7 @@
    白・Mist 80% ／ River Blue 15% ／ 砂ベージュ 5%
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,500&display=swap');
 
 :root {
   --ink:    #222222;   /* Charcoal（本文） */
@@ -64,17 +64,16 @@ header .wrap {
 }
 
 .brand {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
   text-decoration: none;
-  color: var(--accent);
   display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
 }
 
-.brand .mark { width: 15px; height: 15px; }
+/* インライン wordmark（Fraunces はページで読み込む） */
+.brand-wm { height: 30px; width: auto; display: block; }
+.wm-t { font-family: 'Fraunces', Georgia, 'Times New Roman', serif; }
 
 .brand span {
   display: block;
@@ -83,8 +82,12 @@ header .wrap {
   letter-spacing: 0.1em;
   color: var(--sub);
   text-transform: uppercase;
-  margin-top: 3px;
+  margin-top: 1px;
 }
+
+/* フッターの白 wordmark */
+.foot-brand { margin: 0 0 6px; }
+.foot-wm { height: 26px; width: auto; display: block; }
 
 nav {
   display: flex;
