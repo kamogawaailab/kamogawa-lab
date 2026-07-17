@@ -304,6 +304,32 @@ th {
 }
 td.c, th.c { text-align: center; }
 
+/* --- ページ上部へ戻るボタン（記事ページのみ、JSで生成） --- */
+.to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 20px -8px rgba(60,118,136,.6);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity .3s ease, transform .3s ease, visibility .3s ease, background .3s ease;
+  z-index: 50;
+}
+.to-top.show { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover { background: var(--deep); }
+.to-top svg { width: 18px; height: 18px; }
+@media (max-width: 600px) { .to-top { right: 16px; bottom: 16px; } }
+
 /* --- misc --- */
 
 .callout {
