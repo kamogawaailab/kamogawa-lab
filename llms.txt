@@ -24,7 +24,7 @@
 
 ## レポート
 
-- [京都の体験施設10軒を、AIに聞いてみた（2026年7月）](https://kamogawa-lab.jp/reports/kyoto-experience-2026/):
+- [京都の体験施設10軒を、AIに聞いてみた（2026年7月）](https://kaasela.com/reports/kyoto-experience-2026/):
   茶道・着物・和菓子・工芸の10軒を日英中4言語で調査。
   口コミ500件超の店が「存在しない」と回答され、
   別店として紹介された事例を含む。

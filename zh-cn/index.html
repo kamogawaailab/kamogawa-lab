@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kääselä｜生成式AI如何以顾客的语言描述商家？</title>
 <meta name="description" content="测量生成式AI如何以顾客的语言认知、描述商家的独立研究项目。以日、英、中文等多语言进行实测并公开记录。">
-<link rel="canonical" href="https://kamogawa-lab.jp/zh-cn/">
-<link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
-<link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/">
-<link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/">
-<link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/">
-<link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
+<link rel="canonical" href="https://kaasela.com/zh-cn/">
+<link rel="alternate" hreflang="ja"      href="https://kaasela.com/">
+<link rel="alternate" hreflang="en"      href="https://kaasela.com/en/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kaasela.com/zh-tw/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kaasela.com/zh-cn/">
+<link rel="alternate" hreflang="x-default" href="https://kaasela.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kääselä｜生成式AI如何以顾客的语言描述商家？">
-<meta property="og:url" content="https://kamogawa-lab.jp/zh-cn/">
+<meta property="og:url" content="https://kaasela.com/zh-cn/">
 <meta property="og:locale" content="zh_CN">
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">
@@ -22,10 +22,10 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://kamogawa-lab.jp/#organization",
+      "@id": "https://kaasela.com/#organization",
       "name": "Kääselä",
       "alternateName": ["Kaasela", "Kamogawa AI Search Lab", "カセラ"],
-      "url": "https://kamogawa-lab.jp/",
+      "url": "https://kaasela.com/",
       "brand": { "@type": "Brand", "name": "Kääselä", "alternateName": ["Kaasela", "カセラ"] },
       "description": "Kääselä（ASCII 写作 Kaasela，日文假名 カセラ）是 Kamogawa AI Search Lab 的通称，取自 Ka(mogawa)、A(I)、Se(arch)、La(b) 的首字母。这是一个测量生成式AI如何以顾客的语言认知、描述商家的独立研究项目，以日、英、中文等多语言进行实测并公开记录。",
       "email": "kamogawa.ai.lab@gmail.com",
@@ -33,8 +33,8 @@
       "location": { "@type": "Place", "name": "Kyoto" },
       "knowsLanguage": ["ja", "en", "zh-Hant", "zh-Hans"],
       "sameAs": [
-        "https://note.com/kamogawaailab",
-        "https://github.com/kamogawaailab"
+        "https://note.com/kaasela",
+        "https://github.com/kaasela/kamogawa_ai_research_lab"
       ]
     }
   ]
@@ -45,29 +45,49 @@
 <header>
   <div class="wrap">
     <a class="brand" href="/zh-cn/">
+      <svg class="mark" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="3" cy="8" r="2" fill="#4A90A4"/>
+        <circle cx="13" cy="4" r="1.6" fill="#4A90A4"/>
+        <circle cx="12" cy="12" r="1.6" fill="#EADFCC"/>
+        <path d="M4.7 7.3 L11.5 4.6 M4.8 8.7 L10.8 11.3" stroke="#7CB7B0" stroke-width=".8"/>
+      </svg>
       Kääselä
       <span>Kamogawa AI Search Lab</span>
     </a>
     <nav>
-      <span class="langs">
-        <a href="/" hreflang="ja">日本語</a>
-        <a href="/en/" hreflang="en">EN</a>
-        <a href="/zh-tw/" hreflang="zh-Hant">繁中</a>
-        <a href="/zh-cn/" hreflang="zh-Hans" aria-current="true">简中</a>
-      </span>
+      <details class="lang-menu">
+        <summary>简体中文</summary>
+        <div class="lang-list">
+          <a href="/"        hreflang="ja">日本語</a>
+          <a href="/en/"     hreflang="en">English</a>
+          <a href="/zh-tw/"  hreflang="zh-Hant">繁體中文</a>
+          <a href="/zh-cn/"  hreflang="zh-Hans" aria-current="true">简体中文</a>
+        </div>
+      </details>
     </nav>
   </div>
 </header>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1>在顾客的语言里，<br>你的店是什么样子？</h1>
+      <p class="lede">
+        当游客想“在京都体验茶道”时，答案越来越多来自 AI，而不是 Google——
+        通常是一份三到五家店的清单。
+        被选中的商家，和没被选中的商家，差别在哪里？
+        我用日语、英语、中文等多种语言实际测试，并分析结果。
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="/zh-cn/reports/kyoto-experience-2026/">阅读调查报告</a>
+      </div>
+    </div>
+    <div class="hero-canvas-wrap">
+      <canvas id="graph"></canvas>
+    </div>
+  </div>
+</section>
+
 <main class="wrap">
-
-  <h1>在顾客的语言里，<br>你的店是什么样子？</h1>
-
-  <p class="lede">
-    当游客想“在京都体验茶道”时，答案越来越多来自 AI，而不是 Google——
-    通常是一份三到五家店的清单。
-    被选中的商家，和没被选中的商家，差别在哪里？
-    我用日语、英语、中文等多种语言实际测试，并分析结果。
-  </p>
 
   <div class="callout">
     <p><strong>来自2026年7月的调查</strong></p>
@@ -119,5 +139,8 @@
     <p>An independent research project. Not affiliated with any university or organization.</p>
   </div>
 </footer>
+
+<script src="/assets/site.js" defer></script>
+
 </body>
 </html>

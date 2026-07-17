@@ -7,17 +7,17 @@
 <title>Kääselä｜生成AIは、事業者のことを顧客の言語でどう伝えているか</title>
 <meta name="description" content="生成AI（ChatGPT・Claude・Gemini等）が、事業者のことを顧客の言語でどのように伝えているか。日本語・英語・中国語をはじめとする多言語で実測し、記録を公開している個人研究プロジェクトです。GEO・LLMO・AIOと呼ばれる領域を、データで検証します。">
 
-<link rel="canonical" href="https://kamogawa-lab.jp/">
-<link rel="alternate" hreflang="ja"      href="https://kamogawa-lab.jp/">
-<link rel="alternate" hreflang="en"      href="https://kamogawa-lab.jp/en/">
-<link rel="alternate" hreflang="zh-Hant" href="https://kamogawa-lab.jp/zh-tw/">
-<link rel="alternate" hreflang="zh-Hans" href="https://kamogawa-lab.jp/zh-cn/">
-<link rel="alternate" hreflang="x-default" href="https://kamogawa-lab.jp/">
+<link rel="canonical" href="https://kaasela.com/">
+<link rel="alternate" hreflang="ja"      href="https://kaasela.com/">
+<link rel="alternate" hreflang="en"      href="https://kaasela.com/en/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kaasela.com/zh-tw/">
+<link rel="alternate" hreflang="zh-Hans" href="https://kaasela.com/zh-cn/">
+<link rel="alternate" hreflang="x-default" href="https://kaasela.com/">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kääselä｜生成AIは、事業者のことを顧客の言語でどう伝えているか">
 <meta property="og:description" content="生成AIは、事業者のことを顧客の言語でどう伝えているか。日本語・英語・中国語をはじめとする多言語で実測し、記録を公開しています。">
-<meta property="og:url" content="https://kamogawa-lab.jp/">
+<meta property="og:url" content="https://kaasela.com/">
 <meta property="og:site_name" content="Kääselä">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary">
@@ -39,10 +39,10 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://kamogawa-lab.jp/#organization",
+      "@id": "https://kaasela.com/#organization",
       "name": "Kääselä",
       "alternateName": ["Kaasela", "Kamogawa AI Search Lab", "カセラ"],
-      "url": "https://kamogawa-lab.jp/",
+      "url": "https://kaasela.com/",
       "brand": { "@type": "Brand", "name": "Kääselä", "alternateName": ["Kaasela", "カセラ"] },
       "description": "Kääselä（カセラ、ASCII表記 Kaasela）は Kamogawa AI Search Lab の通称。Ka(mogawa)・A(I)・Se(arch)・La(b) の頭文字に由来する。生成AIが事業者のことを顧客の言語でどのように伝えているかを、日本語・英語・中国語をはじめとする多言語で実測し、記録を公開する個人研究プロジェクト。京都在住のITコンサルタントが個人で運営している。",
       "email": "kamogawa.ai.lab@gmail.com",
@@ -60,14 +60,14 @@
         "多言語での情報設計"
       ],
       "sameAs": [
-        "https://note.com/kamogawaailab",
-        "https://github.com/kamogawaailab"
+        "https://note.com/kaasela",
+        "https://github.com/kaasela/kamogawa_ai_research_lab"
       ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://kamogawa-lab.jp/#website",
-      "url": "https://kamogawa-lab.jp/",
+      "@id": "https://kaasela.com/#website",
+      "url": "https://kaasela.com/",
       "name": "Kääselä",
       "inLanguage": "ja",
       "publisher": { "@id": "https://kamogawa-lab.jp/#organization" }
@@ -75,6 +75,7 @@
   ]
 }
 </script>
+
 </head>
 
 <body>
@@ -82,6 +83,12 @@
 <header>
   <div class="wrap">
     <a class="brand" href="/">
+      <svg class="mark" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="3" cy="8" r="2" fill="#4A90A4"/>
+        <circle cx="13" cy="4" r="1.6" fill="#4A90A4"/>
+        <circle cx="12" cy="12" r="1.6" fill="#EADFCC"/>
+        <path d="M4.7 7.3 L11.5 4.6 M4.8 8.7 L10.8 11.3" stroke="#7CB7B0" stroke-width=".8"/>
+      </svg>
       Kääselä
       <span>Kamogawa AI Search Lab</span>
     </a>
@@ -89,27 +96,40 @@
       <a href="/reports/">調査レポート</a>
       <a href="#about">このラボについて</a>
       <a href="#contact">ご連絡</a>
-      <span class="langs">
-        <a href="/"        hreflang="ja"      aria-current="true">日本語</a>
-        <a href="/en/"     hreflang="en">EN</a>
-        <a href="/zh-tw/"  hreflang="zh-Hant">繁中</a>
-        <a href="/zh-cn/"  hreflang="zh-Hans">简中</a>
-      </span>
+      <details class="lang-menu">
+        <summary>日本語</summary>
+        <div class="lang-list">
+          <a href="/"        hreflang="ja"      aria-current="true">日本語</a>
+          <a href="/en/"     hreflang="en">English</a>
+          <a href="/zh-tw/"  hreflang="zh-Hant">繁體中文</a>
+          <a href="/zh-cn/"  hreflang="zh-Hans">简体中文</a>
+        </div>
+      </details>
     </nav>
   </div>
 </header>
 
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1>あなたの店は、<br>顧客の言語でどう伝わっているか。</h1>
+      <p class="lede">
+        旅行者や消費者が何かを探すとき、
+        その入り口はGoogleからAIへ移りつつあります。
+        AIが答えに挙げる数件の中で、選ばれる事業者と選ばれない事業者は、何が違うのか。
+        日本語・英語・中国語をはじめとする多言語で、実測した結果を分析しています。
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="/reports/kyoto-experience-2026/">調査レポートを読む</a>
+      </div>
+    </div>
+    <div class="hero-canvas-wrap">
+      <canvas id="graph"></canvas>
+    </div>
+  </div>
+</section>
+
 <main class="wrap">
-
-  <h1>あなたの店は、<br>顧客の言語でどう伝わっているか。</h1>
-
-  <p class="lede">
-    旅行者や消費者が何かを探すとき、
-    その入り口はGoogleからAIへ移りつつあります。
-    AIが答えに挙げる数件の中で、
-    選ばれる事業者と、選ばれない事業者は、何が違うのか。
-    日本語・英語・中国語をはじめとする多言語で、実測した結果を分析しています。
-  </p>
 
   <div class="callout">
     <p><strong>2026年7月の調査から</strong></p>
@@ -183,6 +203,9 @@
     <p>個人による研究・情報発信プロジェクトです。特定の団体・大学等とは関係ありません。</p>
   </div>
 </footer>
+
+<script src="/assets/site.js" defer></script>
+
 
 </body>
 </html>

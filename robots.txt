@@ -49,4 +49,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://kamogawa-lab.jp/sitemap.xml
+Sitemap: https://kaasela.com/sitemap.xml
